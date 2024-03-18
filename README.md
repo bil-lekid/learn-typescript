@@ -40,3 +40,7 @@ You usually want to _avoid_ this, though, because `any` isn’t type-checked. Us
 - private cannot be accessed using extends, protected can be accessed in the class and any class (with extends) but not outside of class
 - why is interface so important, it keeps everything tidy, naming becomes strict, so dev can set rules for other devs for naming preferences.
 - abstract classes, cannot create their own object but helps extends to new class. Guides new classes to have the same property, put abstract to a method so it needs to be declared (compulsory) in new class, methods and property are extended.
+- generics, very cool log the types
+  ![alt text](image-3.png)
+- generics can be used for array as well, and we can use more than one generic, and can even be used in class
+- Narrowing: is super great, super cautious, reduce bugs, always appreciated, using `if(typeof x==="type){then we gud or not gud}`
